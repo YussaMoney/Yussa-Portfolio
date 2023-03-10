@@ -16,3 +16,7 @@ body {
 .navbar {
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
 }
+
+h1, h2 {
+  color: rgb(63, 58, 100);
+}
