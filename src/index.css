@@ -20,3 +20,22 @@ body {
 h1, h2 {
   color: rgb(63, 58, 100);
 }
+
+.hello,
+.who {
+  align-self: center;
+}
+
+.hello,
+.who,
+.authorImg {
+  width: 45%;
+}
+
+.authorImg img {
+  border-radius: 15px;
+}
+
+.profile {
+  justify-content: space-between;
+}
