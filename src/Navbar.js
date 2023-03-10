@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-primary container">
       <div class="container-fluid navbarbtt">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-logo" href="/">
           <img src="{}" alt="author-logo" />
         </a>
         <button
