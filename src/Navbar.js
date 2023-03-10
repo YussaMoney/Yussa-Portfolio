@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "./images/YussaMoney.png";
 
 export default function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-primary container">
-      <div class="container-fluid navbarbtt">
+    <nav class="navbar navbar-expand-lg bg-body-primary py-3">
+      <div class="container-fluid container">
         <a class="navbar-logo" href="/">
-          <img src="{}" alt="author-logo" />
+          <img src={logo} className="logo" alt="author-logo" />
         </a>
         <button
           class="navbar-toggler"
@@ -19,9 +20,9 @@ export default function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav fs-4">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">
+              <a class="nav-link active text-primary" aria-current="page" href="/">
                 Home
               </a>
             </li>

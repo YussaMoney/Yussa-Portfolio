@@ -1,0 +1,18 @@
+.logo {
+  width: 15rem;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover,
+.logo:hover {
+  color: blue;
+  transform: scale(1.08);
+  transition: all ease-in-out 0.5s;
+}
+
+.navbar {
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+}
