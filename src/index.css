@@ -13,8 +13,14 @@ body {
   transition: all ease-in-out 0.5s;
 }
 
-.navbar {
+.fixed-nav {
+  background-color: white;
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+}
+
+.content,
+.about {
+  margin-top: 85px;
 }
 
 h1, h2 {

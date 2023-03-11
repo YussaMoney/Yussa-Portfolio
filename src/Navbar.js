@@ -3,7 +3,7 @@ import logo from "./images/YussaMoney.png";
 
 export default function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-primary py-3">
+    <nav class="navbar navbar-expand-lg bg-body-primary py-3 fixed-top fixed-nav">
       <div class="container-fluid container">
         <a class="navbar-logo" href="/">
           <img src={logo} className="logo" alt="author-logo" />
