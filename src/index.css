@@ -8,7 +8,7 @@ body {
 
 .nav-link:hover,
 .logo:hover {
-  color: blue;
+  color: blue !important;
   transform: scale(1.08);
   transition: all ease-in-out 0.5s;
 }
