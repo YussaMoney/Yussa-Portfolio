@@ -45,3 +45,7 @@ h1, h2 {
 .profile {
   justify-content: space-between;
 }
+
+.heading {
+  font-size: 4rem;
+}

@@ -9,7 +9,7 @@ export default function About() {
         <div className="container py-5">
           <h1 className="heading">About Me</h1>
           <div className="d-flex justify-content-center">
-            <a className="nav-link active text-primary fs-5" href="/">
+            <a className="text-decoration-none active text-primary fs-5" href="/">
               Home
             </a>
             <ArrowRightIcon className="text-secondary fs-2"/>
@@ -26,7 +26,7 @@ export default function About() {
             <h5 className="text-secondary">
               <strong>HELLO, I AM A WEB DEVELOPER</strong>
             </h5>
-            <h5 className="text-secondary pb-5 lh-base border-bottom">
+            <h5 className="text-secondary py-4 lh-base">
               Hi there! I'm a Knowledgeable Front End Developer adept at
               creating successful websites that meet customer needs.
               Specializing in collaborating with customers to gather
@@ -35,7 +35,7 @@ export default function About() {
               solver with calm and focused demeanor.
             </h5>
 
-            <button className="py-3 px-5 btn btn-primary border-0 fs-5">
+            <button className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
               View CV
             </button>
           </div>
