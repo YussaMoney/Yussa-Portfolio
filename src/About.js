@@ -209,7 +209,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="bg-secondary-subtle my-5">
+      <section className="bg-secondary-subtle mt-5">
         <div className="d-flex justify-content-between">
           <img className="w-35" src={laptop} alt="laptop" />
           <div className="py-5 my-auto">
