@@ -111,7 +111,7 @@ export default function About() {
           </div>
           <div className="skills">
             <h1 className="px-5">MY SKILLS</h1>
-            <div className="text-secondary d-grid">
+            <div className="text-secondary d-grid w-75">
               <div className="row">
                 <h5 className="col">
                   <strong>HTML:</strong>
@@ -134,13 +134,13 @@ export default function About() {
                 <h5 className="col">
                   <strong>JAVASCRIPT:</strong>
                 </h5>
-                <h5 className="col-2">EXPERT</h5>
+                <h5 className="col-2">INTERMEDIATE</h5>
               </div>
               <div className="row">
                 <h5 className="col">
                   <strong>REACTJS:</strong>
                 </h5>
-                <h5 className="col-2">EXPERT</h5>
+                <h5 className="col-2">INTERMEDIATE</h5>
               </div>
               <div className="row">
                 <h5 className="col">
@@ -151,6 +151,54 @@ export default function About() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="education">
+        <div className="py-5 container">
+          <h5 className="text-secondary pb-3 text-center">
+            <strong>EDUCATION</strong>
+          </h5>
+          <h1 className="text-center pb-5">My Education</h1>
+          <div className="d-flex justify-content-between">
+            <div className="p-5 bg-secondary-subtle border rounded w-50">
+              <h2 className="pb-2">Self Taught</h2>
+              <h5 className="text-secondary fw-bolder">
+                <a
+                  className="text-decoration-none"
+                  href="https://www.theodinproject.com"
+                >
+                  The Odin Project
+                </a>{" "}
+                and Youtube
+              </h5>
+              <h5 className="text-secondary lh-base fw-bolder">2021 - Present <br />Still and Always Learning</h5>
+            </div>
+            <div className="p-5 bg-secondary-subtle border rounded w-50">
+              <h2 className="pb-2">Self Taught</h2>
+              <h5 className="text-secondary fw-bolder">
+                <a
+                  className="text-decoration-none"
+                  href="https://www.theodinproject.com"
+                >
+                  The Odin Project
+                </a>{" "}
+                and Youtube
+              </h5>
+              <h5 className="text-secondary lh-base fw-bolder">2021 - Present <br />Still and Always Learning</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <img src="" alt="" />
+        <div>
+          <h1>Let's Talk</h1>
+          <a class="whatsapp-link" href="https://wa.me/+2348078773063">
+            <button className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
+              <WhatsAppIcon /> +2348078773063
+            </button>
+          </a>
+        </div>
+        <img src="" alt="" />
       </section>
     </div>
   );
