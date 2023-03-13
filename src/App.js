@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
 import About from "./About";
+import Experience from "./Experience";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Content />} />
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/experience" element={<Experience />} />
       </Routes>
       <footer>
         <Footer />
