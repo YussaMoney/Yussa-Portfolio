@@ -1,5 +1,7 @@
 import React from "react";
 import authorImg from "./images/me4 (2).jpg";
+import laptop from "./images/laptop.jpg";
+import desktop from "./images/desktop.jpg";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
@@ -207,17 +209,19 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section>
-        <img src="" alt="" />
-        <div>
-          <h1>Let's Talk</h1>
-          <a class="whatsapp-link" href="https://wa.me/+2348078773063">
-            <button className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
-              <WhatsAppIcon /> +2348078773063
-            </button>
-          </a>
+      <section className="bg-secondary-subtle my-5">
+        <div className="d-flex justify-content-between">
+          <img className="w-35" src={laptop} alt="laptop" />
+          <div className="py-5 my-auto">
+            <h1 className="text-center">Let's Talk</h1>
+            <a class="whatsapp-link" href="https://wa.me/+2348078773063">
+              <button className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
+                <WhatsAppIcon className="fs-1"/> +<span className="fs-5">2348078773063</span>
+              </button>
+            </a>
+          </div>
+          <img className="w-35" src={desktop} alt="desktop" />
         </div>
-        <img src="" alt="" />
       </section>
     </div>
   );
