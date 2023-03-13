@@ -12,7 +12,7 @@ import PeopleIcon from '@mui/icons-material/People';
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="margin-top">
       <section className="text-center mb-3 bg-secondary-subtle">
         <div className="container py-5">
           <h1 className="heading">About Me</h1>

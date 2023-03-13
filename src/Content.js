@@ -5,7 +5,7 @@ import authorImg from "./images/me4 (2).jpg";
 export default function Content() {
   return (
     <div className="container-fluid px-0">
-      <div className="content">
+      <div className="margin-top">
         <section className="bg-secondary-subtle py-5">
           <div className="container d-flex profile">
             <div className="hello">
