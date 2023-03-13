@@ -50,3 +50,9 @@ h1, h2 {
 .heading {
   font-size: 4rem;
 }
+
+.teach:hover {
+  background-color: white !important;
+  transition: all ease 0.5s;
+  border: 1px solid rgb(206, 212, 218) !important;
+}

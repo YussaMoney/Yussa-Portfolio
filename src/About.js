@@ -5,6 +5,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import SchoolIcon from '@mui/icons-material/School';
+import PeopleIcon from '@mui/icons-material/People';
 
 export default function About() {
   return (
@@ -159,7 +161,8 @@ export default function About() {
           </h5>
           <h1 className="text-center pb-5">My Education</h1>
           <div className="d-flex justify-content-between">
-            <div className="p-5 bg-secondary-subtle border rounded w-50">
+            <div className="p-5 bg-secondary-subtle border rounded who teach">
+              <SchoolIcon className="text-primary fs-1 mb-3 text-center"/>
               <h2 className="pb-2">Self Taught</h2>
               <h5 className="text-secondary fw-bolder">
                 <a
@@ -170,20 +173,36 @@ export default function About() {
                 </a>{" "}
                 and Youtube
               </h5>
-              <h5 className="text-secondary lh-base fw-bolder">2021 - Present <br />Still and Always Learning</h5>
+              <h5 className="text-secondary lh-lg fw-bolder">2021 - Present <br />Still and Always Learning</h5>
             </div>
-            <div className="p-5 bg-secondary-subtle border rounded w-50">
-              <h2 className="pb-2">Self Taught</h2>
-              <h5 className="text-secondary fw-bolder">
+            <div className="py-4 px-5 bg-secondary-subtle border rounded who teach">
+              <PeopleIcon className="text-primary fs-1 mb-3 text-center"/>
+              <h2 className="pb-2">Also Taught</h2>
+              <h5 className="text-secondary fw-bolder">By
                 <a
                   className="text-decoration-none"
-                  href="https://www.theodinproject.com"
+                  href="https://taofeekolalere.me/"
                 >
-                  The Odin Project
-                </a>{" "}
-                and Youtube
+                  {" "}Taofeek Olalere
+                </a>
               </h5>
-              <h5 className="text-secondary lh-base fw-bolder">2021 - Present <br />Still and Always Learning</h5>
+              <h2 className="pt-3">Mentor</h2>
+              <h5 className="text-secondary fw-bolder pb-2">By
+                <a
+                  className="text-decoration-none"
+                  href="https://github.com/teekaytech"
+                >
+                  {" "}Taofeek Olalere
+                </a>
+              </h5>
+              <h5 className="text-secondary fw-bolder">And
+                <a
+                  className="text-decoration-none"
+                  href="https://ng.linkedin.com/in/haleemah-modupeola-azeez"
+                >
+                  {" "}Haleemah Azeez
+                </a>
+              </h5>
             </div>
           </div>
         </div>
