@@ -163,8 +163,8 @@ export default function About() {
           </h5>
           <h1 className="text-center pb-5">My Education</h1>
           <div className="d-flex justify-content-between">
-            <div className="p-5 bg-secondary-subtle border rounded who teach">
-              <SchoolIcon className="text-primary fs-1 mb-3 text-center"/>
+            <div className="p-5 bg-secondary-subtle border rounded who hover">
+              <SchoolIcon className="text-primary fs-1 mb-3"/>
               <h2 className="pb-2">Self Taught</h2>
               <h5 className="text-secondary fw-bolder">
                 <a
@@ -177,8 +177,8 @@ export default function About() {
               </h5>
               <h5 className="text-secondary lh-lg fw-bolder">2021 - Present <br />Still and Always Learning</h5>
             </div>
-            <div className="py-4 px-5 bg-secondary-subtle border rounded who teach">
-              <PeopleIcon className="text-primary fs-1 mb-3 text-center"/>
+            <div className="py-4 px-5 bg-secondary-subtle border rounded who hover">
+              <PeopleIcon className="text-primary fs-1 mb-3"/>
               <h2 className="pb-2">Also Taught</h2>
               <h5 className="text-secondary fw-bolder">By
                 <a
