@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .nav-link:hover,
@@ -22,7 +22,8 @@ body {
   margin-top: 85px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: rgb(63, 58, 100);
 }
 
@@ -50,12 +51,20 @@ h1, h2 {
   font-size: 4rem;
 }
 
-.teach:hover {
+.w-35 {
+  width: 35%;
+}
+
+.hover:hover {
   background-color: white !important;
   transition: all ease 0.5s;
   border: 1px solid rgb(206, 212, 218) !important;
 }
 
-.w-35 {
-  width: 35%;
+.title:hover {
+  color: blue !important;
+}
+
+.w-30 {
+  width: 31.7%;
 }
