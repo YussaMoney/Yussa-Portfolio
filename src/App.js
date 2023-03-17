@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
 import About from "./About";
 import Experience from "./Experience";
+import Contact from "./Contact";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Content />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/experience" element={<Experience />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <footer>
         <Footer />
