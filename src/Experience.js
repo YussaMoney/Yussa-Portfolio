@@ -31,9 +31,12 @@ export default function Experience() {
           <h1 className="pb-5">
             Kindly check out my resume below for my work experience
           </h1>
-          <button className="py-3 px-5 btn btn-primary border-0 fs-5">
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vQr5vCE5jOeTF5d8OuVB6_-YEQSnSEYnilKAfUSM7aCkK9ekSTnwgwJreK3eJNO7A/pub"
+            className="py-3 px-5 btn btn-primary border-0 fs-5"
+          >
             View Resume
-          </button>
+          </a>
         </div>
       </section>
       <section className="py-5">

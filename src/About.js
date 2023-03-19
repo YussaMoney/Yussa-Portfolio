@@ -28,7 +28,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="py-5 bg-">
+      <section className="py-5">
         <div className="container d-flex profile">
           <div className="authorImg">
             <img src={authorImg} className="w-100" alt="author-img" />
@@ -46,9 +46,9 @@ export default function About() {
               solver with calm and focused demeanor.
             </h5>
 
-            <button className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vQr5vCE5jOeTF5d8OuVB6_-YEQSnSEYnilKAfUSM7aCkK9ekSTnwgwJreK3eJNO7A/pub" className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
               View CV
-            </button>
+            </a>
           </div>
         </div>
       </section>

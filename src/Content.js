@@ -18,12 +18,12 @@ export default function Content() {
               <h4 className="text-footer pb-3 text-secondary">
                 Developer / Programmer / Engineer
               </h4>
-              <button className="py-3 px-5 btn btn-primary border-0 fs-5">
+              <a href="/contact" className="py-3 px-5 btn btn-primary border-0 fs-5">
                 Hire Me
-              </button>
-              <button className="py-3 px-5 m-3 btn btn-outline-primary fs-5">
+              </a>
+              <a href="/" className="py-3 px-5 m-3 btn btn-outline-primary fs-5">
                 Portfolio
-              </button>
+              </a>
             </div>
             <div className="authorImg">
               <img src={authorPic} className="w-100" alt="author-img" />
@@ -51,9 +51,9 @@ export default function Content() {
                 functionality. Technically proficient and analytical problem
                 solver with calm and focused demeanor.
               </h5>
-              <button className="py-3 px-5 btn btn-primary border-0 fs-5">
+              <a href="https://docs.google.com/document/d/e/2PACX-1vQr5vCE5jOeTF5d8OuVB6_-YEQSnSEYnilKAfUSM7aCkK9ekSTnwgwJreK3eJNO7A/pub" className="py-3 px-5 btn btn-primary border-0 fs-5">
                 View CV
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -70,9 +70,9 @@ export default function Content() {
               I can give your business a new creative start right away! <br />{" "}
               Hire me for your Awesome Project!
             </h5>
-            <button className="py-3 px-5 btn btn-primary border-0 fs-5">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vQr5vCE5jOeTF5d8OuVB6_-YEQSnSEYnilKAfUSM7aCkK9ekSTnwgwJreK3eJNO7A/pub" className="py-3 px-5 btn btn-primary border-0 fs-5">
               View Resume
-            </button>
+            </a>
           </div>
         </section>
         <section className="py-5 text-center">
@@ -81,12 +81,12 @@ export default function Content() {
               <strong>GET IN TOUCH</strong>
             </h5>
             <h2 className=" fw-bolder pb-4">Let's Start A Project! Hire Me.</h2>
-            <button className="py-3 px-5 btn btn-primary  border-0 fs-5">
+            <a href="/contact" className="py-3 px-5 btn btn-primary  border-0 fs-5">
               Hire Me
-            </button>
-            <button className="py-3 px-5 m-3 btn btn-outline-primary fs-5">
+            </a>
+            <a href="/contact" className="py-3 px-5 m-3 btn btn-outline-primary fs-5">
               Get In Touch
-            </button>
+            </a>
           </div>
         </section>
       </div>
