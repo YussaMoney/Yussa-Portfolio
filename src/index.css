@@ -96,6 +96,18 @@ h2 {
   .inTouchBtn {
     padding: 1rem 2rem !important;
   }
+
+  .foot {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .foot .nav {
+    justify-content: center !important;
+    margin-top: 1rem;
+  }
+
+  
   
 }
 

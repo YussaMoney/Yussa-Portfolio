@@ -8,7 +8,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 export default function Footer() {
   return (
     <div className='footer border-top'>
-      <div className="container d-flex justify-content-between py-5">
+      <div className="container d-flex justify-content-between py-5 foot">
         <h5 className='text-secondary'>YussaMoney © Copyright 2023. Developed by YussaMoney</h5>
         <div>
           <ul class="nav">
