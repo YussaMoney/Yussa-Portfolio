@@ -36,7 +36,7 @@ export default function Content() {
               <img src={authorImg} className="w-100" alt="author-img" />
             </div>
             <div className="who">
-              <h5 className="text-secondary">
+              <h5 className="text-secondary img-footer">
                 <strong>WHO AM I?</strong>
               </h5>
               <h2 className="pt-3">
@@ -58,7 +58,7 @@ export default function Content() {
           </div>
         </section>
         <section className="bg-secondary-subtle py-5">
-          <div className="container">
+          <div className="container resume">
             <h5 className="text-secondary pb-3">
               <strong>MY RESUME</strong>
             </h5>
@@ -76,7 +76,7 @@ export default function Content() {
           </div>
         </section>
         <section className="py-5 text-center">
-          <div className="container">
+          <div className="container inTouch">
             <h5 className="text-secondary">
               <strong>GET IN TOUCH</strong>
             </h5>
@@ -84,7 +84,7 @@ export default function Content() {
             <a href="/contact" className="py-3 px-5 btn btn-primary  border-0 fs-5">
               Hire Me
             </a>
-            <a href="/contact" className="py-3 px-5 m-3 btn btn-outline-primary fs-5">
+            <a href="/contact" className="py-3 px-5 m-3 btn btn-outline-primary fs-5 inTouchBtn">
               Get In Touch
             </a>
           </div>

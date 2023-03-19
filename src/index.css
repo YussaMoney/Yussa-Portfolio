@@ -68,3 +68,34 @@ h2 {
 .w-30 {
   width: 31.7%;
 }
+
+@media screen and (max-width: 991.98px) {
+  .logo {
+    width: 10rem;
+  }
+
+  .margin-top {
+    margin-top: 70px;
+  }
+
+  .profile {
+    justify-content: normal;
+    display: block !important;
+  }
+  
+  .authorImg,
+  .hello,
+  .who {
+    width: 100%;
+  }
+
+  .img-footer {
+    padding-top: 1rem;
+  }
+
+  .inTouchBtn {
+    padding: 1rem 2rem !important;
+  }
+  
+}
+
