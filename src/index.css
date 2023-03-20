@@ -137,7 +137,26 @@ h2 {
     margin: 0 !important;
   }
 
+  .project-list {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    column-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+  }
 
-  
+  .w-30 {
+    width: 100% !important;
+  }
 }
 
+@media screen and (max-width: 469.98px) {
+  .project-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+    margin: 0 auto;
+  }
+}

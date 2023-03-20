@@ -47,7 +47,7 @@ export default function Experience() {
           <h1 className="pb-5 text-center">
             I have worked on various projects
           </h1>
-          <div class="row row-cols-3 justify-content-between g-4">
+          <div class="project-list row row-cols-3 justify-content-between g-4">
             <a
               className="w-30 text-decoration-none bg-secondary-subtle border rounded p-4 hover"
               href="https://linktree-c0xa9h5ne-yussamoney.vercel.app"
@@ -150,7 +150,7 @@ export default function Experience() {
       <section className="bg-secondary-subtle mt-5">
         <div className="d-flex justify-content-between">
           <img className="w-35" src={laptop} alt="laptop" />
-          <div className="py-5 my-auto">
+          <div className="py-5 my-auto talk">
             <h1 className="text-center">Let's Talk</h1>
             <a class="whatsapp-link" href="https://wa.me/+2348078773063">
               <button className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
