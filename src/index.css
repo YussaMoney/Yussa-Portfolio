@@ -102,12 +102,42 @@ h2 {
     text-align: center !important;
   }
 
-  .foot .nav {
+  .foot .nav,
+  .info .nav{
     justify-content: center !important;
     margin-top: 1rem;
   }
 
-  
+  .info {
+    text-align: center;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 1rem 5rem 0rem 0.5rem !important;
+  }
+
+  .my-skill {
+    padding: 1rem 0rem !important;
+  }
+
+  .eduList {
+    display: block !important;
+    justify-content: normal;
+  }
+
+  img[alt="laptop"],
+  img[alt="desktop"] {
+    display: none !important;
+  }
+
+  .talk {
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+  }
+
+
   
 }
 
