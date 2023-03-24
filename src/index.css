@@ -74,6 +74,20 @@ h2 {
     width: 10rem;
   }
 
+  .nav-center {
+    text-align: center;
+    padding: 0 35%;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem blue;
+  }
+
+  .navbar-toggler .bars {
+    color: blue !important;
+    border-color: blue;
+  }
+
   .margin-top {
     margin-top: 70px;
   }
@@ -158,5 +172,9 @@ h2 {
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr !important;
     margin: 0 auto;
+  }
+
+  .nav-center {
+    text-align: center;
   }
 }

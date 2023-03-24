@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./images/YussaMoney.png";
+import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Navbar() {
   return (
@@ -9,7 +10,7 @@ export default function Navbar() {
           <img src={logo} className="logo" alt="author-logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler bg-white border-primary"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -17,10 +18,10 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <MenuIcon className="text-primary" />
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav fs-4">
+          <ul class="navbar-nav fs-4 nav-center">
             <li class="nav-item">
               <a class="nav-link active text-primary" aria-current="page" href="/">
                 Home
@@ -47,3 +48,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
