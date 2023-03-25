@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/YussaMoney.png";
+import logo from "../images/YussaMoney.png";
 import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Navbar() {

@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-import authorPic from "./images/author-pic.jpg";
+import authorPic from "../images/author-pic.jpg";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";

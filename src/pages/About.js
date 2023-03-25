@@ -1,7 +1,7 @@
 import React from "react";
-import authorImg from "./images/me4 (2).jpg";
-import laptop from "./images/laptop.jpg";
-import desktop from "./images/desktop.jpg";
+import authorImg from "../images/me4 (2).jpg";
+import laptop from "../images/laptop.jpg";
+import desktop from "../images/desktop.jpg";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";

@@ -1,6 +1,6 @@
 import React from "react";
-import authorPic from "./images/author-pic.jpg";
-import authorImg from "./images/me4 (2).jpg";
+import authorPic from "../images/author-pic.jpg";
+import authorImg from "../images/me4 (2).jpg";
 
 export default function Content() {
   return (

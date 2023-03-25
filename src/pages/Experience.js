@@ -1,8 +1,8 @@
 import React from "react";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import DesignServicesIcon from "@mui/icons-material/DesignServices";
-import laptop from "./images/laptop.jpg";
-import desktop from "./images/desktop.jpg";
+import laptop from "../images/laptop.jpg";
+import desktop from "../images/desktop.jpg";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function Experience() {

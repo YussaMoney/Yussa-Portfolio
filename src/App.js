@@ -1,11 +1,11 @@
-import Content from "./Content";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Content from "./pages/Content";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import About from "./About";
-import Experience from "./Experience";
-import Contact from "./Contact";
-import ScrollToTop from './ScrollToTop';
+import About from "./pages/About";
+import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
