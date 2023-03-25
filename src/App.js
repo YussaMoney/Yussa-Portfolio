@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import About from "./About";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <footer>
         <Footer />
       </footer>
+      <ScrollToTop />
     </div>
   );
 }
