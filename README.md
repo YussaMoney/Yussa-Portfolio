@@ -9,6 +9,7 @@ It was bootstrapped with [Create React App](https://github.com/facebook/create-r
 
 - React/Redux
 - CSS
+- Linters
 - Bootstrap
 - Create-react-app
 - npm

@@ -1,6 +1,7 @@
-import React from "react";
-import authorPic from "../images/author-pic.jpg";
-import authorImg from "../images/me4 (2).jpg";
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
+import authorPic from '../images/author-pic.jpg';
+import authorImg from '../images/me4 (2).jpg';
 
 export default function Content() {
   return (
@@ -13,7 +14,9 @@ export default function Content() {
                 <strong>HELLO</strong>
               </h5>
               <h1 className="py-3">
-                I'm <strong>Yusuf Azeez</strong>
+                I'm
+                {' '}
+                <strong>Yusuf Azeez</strong>
               </h1>
               <h4 className="text-footer pb-3 text-secondary">
                 Developer / Programmer / Engineer
@@ -40,7 +43,9 @@ export default function Content() {
                 <strong>WHO AM I?</strong>
               </h5>
               <h2 className="pt-3">
-                I'm <strong>Yusuf Azeez</strong>
+                I'm
+                {' '}
+                <strong>Yusuf Azeez</strong>
               </h2>
               <h2 className="pb-3">A Developer / Programmer / Engineer</h2>
               <h5 className="text-secondary pb-5 lh-base">
@@ -66,8 +71,13 @@ export default function Content() {
               I Would Love To Make Your Ideas Real
             </h2>
             <h5 className="text-secondary pb-5 lh-base">
-              I'm very passionate about web development. <br />
-              I can give your business a new creative start right away! <br />{" "}
+              I'm very passionate about web development.
+              {' '}
+              <br />
+              I can give your business a new creative start right away!
+              {' '}
+              <br />
+              {' '}
               Hire me for your Awesome Project!
             </h5>
             <a href="https://docs.google.com/document/d/e/2PACX-1vQr5vCE5jOeTF5d8OuVB6_-YEQSnSEYnilKAfUSM7aCkK9ekSTnwgwJreK3eJNO7A/pub" className="py-3 px-5 btn btn-primary border-0 fs-5">

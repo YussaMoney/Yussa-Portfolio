@@ -1,9 +1,10 @@
-import React from "react";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-import DesignServicesIcon from "@mui/icons-material/DesignServices";
-import laptop from "../images/laptop.jpg";
-import desktop from "../images/desktop.jpg";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import DesignServicesIcon from '@mui/icons-material/DesignServices';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import laptop from '../images/laptop.jpg';
+import desktop from '../images/desktop.jpg';
 
 export default function Experience() {
   return (
@@ -47,12 +48,12 @@ export default function Experience() {
           <h1 className="pb-5 text-center">
             I have worked on various projects
           </h1>
-          <div class="project-list row row-cols-3 justify-content-between g-4">
+          <div className="project-list row row-cols-3 justify-content-between g-4">
             <a
               className="w-30 text-decoration-none bg-secondary-subtle border rounded p-4 hover"
               href="https://linktree-c0xa9h5ne-yussamoney.vercel.app"
             >
-              <div class="col">
+              <div className="col">
                 <div className="d-flex justify-content-between">
                   <DesignServicesIcon className="text-primary fs-1" />
                   <h1 className="heading text-secondary">01</h1>
@@ -68,7 +69,7 @@ export default function Experience() {
               className="w-30 text-decoration-none bg-secondary-subtle border rounded p-4 hover"
               href="https://yussamoney.github.io/Library"
             >
-              <div class="col">
+              <div className="col">
                 <div className="d-flex justify-content-between">
                   <DesignServicesIcon className="text-primary fs-1" />
                   <h1 className="heading text-secondary">02</h1>
@@ -84,7 +85,7 @@ export default function Experience() {
               className="w-30 text-decoration-none bg-secondary-subtle border rounded p-4 hover"
               href="https://yussamoney.github.io/Weather-App/"
             >
-              <div class="col">
+              <div className="col">
                 <div className="d-flex justify-content-between">
                   <DesignServicesIcon className="text-primary fs-1" />
                   <h1 className="heading text-secondary">03</h1>
@@ -100,7 +101,7 @@ export default function Experience() {
               className="w-30 text-decoration-none bg-secondary-subtle border rounded p-4 hover"
               href="https://yussamoney.github.io/Simple_HTML_Calculator"
             >
-              <div class="col">
+              <div className="col">
                 <div className="d-flex justify-content-between">
                   <DesignServicesIcon className="text-primary fs-1" />
                   <h1 className="heading text-secondary">04</h1>
@@ -116,7 +117,7 @@ export default function Experience() {
               className="w-30 text-decoration-none bg-secondary-subtle border rounded p-4 hover"
               href="https://yussamoney.github.io/Tic_Tac_Toe-Game/"
             >
-              <div class="col">
+              <div className="col">
                 <div className="d-flex justify-content-between">
                   <DesignServicesIcon className="text-primary fs-1" />
                   <h1 className="heading text-secondary">05</h1>
@@ -132,7 +133,7 @@ export default function Experience() {
               className="w-30 text-decoration-none bg-secondary-subtle border rounded p-4 hover"
               href="https://yussamoney.github.io/My_Portfolio/"
             >
-              <div class="col">
+              <div className="col">
                 <div className="d-flex justify-content-between">
                   <DesignServicesIcon className="text-primary fs-1" />
                   <h1 className="heading text-secondary">06</h1>
@@ -152,9 +153,11 @@ export default function Experience() {
           <img className="w-35" src={laptop} alt="laptop" />
           <div className="py-5 my-auto talk">
             <h1 className="text-center">Let's Talk</h1>
-            <a class="whatsapp-link" href="https://wa.me/+2348078773063">
-              <button className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
-                <WhatsAppIcon className="fs-1" /> +
+            <a className="whatsapp-link" href="https://wa.me/+2348078773063">
+              <button type="button" className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
+                <WhatsAppIcon className="fs-1" />
+                {' '}
+                +
                 <span className="fs-5">2348078773063</span>
               </button>
             </a>

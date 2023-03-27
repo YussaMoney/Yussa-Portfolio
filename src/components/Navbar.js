@@ -1,16 +1,16 @@
-import React from "react";
-import logo from "../images/YussaMoney.png";
+import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
+import logo from '../images/YussaMoney.png';
 
 export default function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-primary py-3 fixed-top fixed-nav">
-      <div class="container-fluid container">
-        <a class="navbar-logo" href="/">
+    <nav className="navbar navbar-expand-lg bg-body-primary py-3 fixed-top fixed-nav">
+      <div className="container-fluid container">
+        <a className="navbar-logo" href="/">
           <img src={logo} className="logo" alt="author-logo" />
         </a>
         <button
-          class="navbar-toggler bg-white border-primary"
+          className="navbar-toggler bg-white border-primary"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -20,25 +20,25 @@ export default function Navbar() {
         >
           <MenuIcon className="text-primary" />
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav fs-4 nav-center">
-            <li class="nav-item">
-              <a class="nav-link active text-primary" aria-current="page" href="/">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul className="navbar-nav fs-4 nav-center">
+            <li className="nav-item">
+              <a className="nav-link active text-primary" aria-current="page" href="/">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about">
+            <li className="nav-item">
+              <a className="nav-link" href="about">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="experience">
+            <li className="nav-item">
+              <a className="nav-link" href="experience">
                 Experience
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact">
+            <li className="nav-item">
+              <a className="nav-link" href="contact">
                 Contact
               </a>
             </li>
@@ -48,4 +48,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
