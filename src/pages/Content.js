@@ -91,7 +91,7 @@ export default function Content() {
               <strong>GET IN TOUCH</strong>
             </h5>
             <h2 className=" fw-bolder pb-4">Let's Start A Project! Hire Me.</h2>
-            <a href="/contact" className="py-3 px-5 btn btn-primary  border-0 fs-5">
+            <a href="/contact" className="py-3 px-5 btn btn-primary  border-0 fs-5 inTouchBtn">
               Hire Me
             </a>
             <a href="/contact" className="py-3 px-5 m-3 btn btn-outline-primary fs-5 inTouchBtn">
