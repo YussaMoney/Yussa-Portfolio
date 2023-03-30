@@ -195,8 +195,28 @@ h2 {
     margin: 0 auto;
   }
 
-  body {
-    font-size: 70%;
+  .nav-center {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 389.98px) {
+  .project-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+    margin: 0 auto;
+  }
+
+  .port {
+    padding: 1rem 1.8rem !important;
+    margin: 0;
+  }
+
+  .inTouchBtn {
+    padding: 1rem !important;
+    margin: 0;
   }
 
   .nav-center {

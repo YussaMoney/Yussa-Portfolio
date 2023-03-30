@@ -21,10 +21,10 @@ export default function Content() {
               <h4 className="text-footer pb-3 text-secondary">
                 Developer / Programmer / Engineer
               </h4>
-              <a href="/contact" className="py-3 px-5 btn btn-primary border-0 fs-5">
+              <a href="/contact" className="port py-3 px-5 btn btn-primary border-0 fs-5">
                 Hire Me
               </a>
-              <a href="/" className="py-3 px-5 m-3 btn btn-outline-primary fs-5">
+              <a href="/" className="port py-3 px-5 m-3 btn btn-outline-primary fs-5">
                 Portfolio
               </a>
             </div>
