@@ -184,6 +184,10 @@ h2 {
   .w-30 {
     width: 100% !important;
   }
+
+  .heading {
+    font-size: 3.6rem;
+  }
 }
 
 @media screen and (max-width: 469.98px) {
@@ -221,5 +225,9 @@ h2 {
 
   .nav-center {
     text-align: center;
+  }
+
+  .heading {
+    font-size: 3rem;
   }
 }
