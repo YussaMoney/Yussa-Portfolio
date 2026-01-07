@@ -38,7 +38,7 @@ export default function Contact() {
               <LocationOnIcon className="fs-1" />
               {' '}
               <span className="px-3">
-                No.7 Boluwaduro Road 2 Ido Local Government, Ibadan
+                No.7 Awoyemi Close, off Ogunlana Drive, Surulere, Lagos.
               </span>
             </h3>
             <h3 className="text-secondary bolder py-2">
@@ -86,7 +86,7 @@ export default function Contact() {
               <li className="nav-item">
                 <a
                   className="nav-link text-secondary"
-                  href="https://www.twitter.com/YussaMoney"
+                  href="https://www.twitter.com/0xyussa"
                 >
                   <TwitterIcon className="fs-1" />
                 </a>
