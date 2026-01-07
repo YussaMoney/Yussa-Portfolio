@@ -27,7 +27,7 @@ export default function Footer() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="https://www.twitter.com/YussaMoney">
+              <a className="nav-link text-secondary" href="https://www.twitter.com/0xyussa">
                 <TwitterIcon />
               </a>
             </li>
