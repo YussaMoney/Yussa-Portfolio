@@ -47,7 +47,7 @@ export default function About() {
               solver with calm and focused demeanor.
             </h5>
 
-            <a href="https://docs.google.com/document/d/e/2PACX-1vQr5vCE5jOeTF5d8OuVB6_-YEQSnSEYnilKAfUSM7aCkK9ekSTnwgwJreK3eJNO7A/pub" className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vSzNvBmhLbZsXWrBVbd2oVRsRuVUYpAHCL1EhPkC8Bh3w79GPSdE6AoZ8enlYRat1AMF3IGKIbMZqSP/pub" className="py-3 px-5 mt-1 btn btn-primary border-0 fs-5">
               View CV
             </a>
           </div>
@@ -114,7 +114,7 @@ export default function About() {
               <li className="nav-item">
                 <a
                   className="nav-link text-secondary"
-                  href="https://www.twitter.com/YussaMoney"
+                  href="https://www.twitter.com/0xyussa"
                 >
                   <TwitterIcon />
                 </a>
